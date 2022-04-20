@@ -1,0 +1,414 @@
+.home{
+    height: 5020px;
+    width: 1440px;
+    left: -123px;
+    top: -289px;
+    border-radius: 0rem;
+}
+
+#caja{
+    display: inline-flex;
+    align-items: center;
+    padding: auto;
+    width: auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#caja ul{
+    width: auto;
+    margin-left: 5rem;
+}
+
+#caja li{
+    margin: 2rem;
+}
+
+.principal {
+    background: #CCCCCC;
+    display:flex;
+}
+
+.principalizquierdo{
+    width: 80rem;
+    padding-left: 4rem;
+}
+
+#banner{
+    width: 100%;
+    height: 8rem;
+
+}
+
+#logo{
+    width: 1rem;
+    height: 1rem;
+}
+
+header{
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+nav{
+    display: flex;
+    padding: 0 0;
+    top: 1.25rem;
+    right:0.125rem;
+    left: 0.125rem;
+    width:auto;
+}
+nav li{
+    padding: 1.25rem 0;
+    display: inline-block;
+    margin: 1rem;
+}
+
+nav li a:hover{
+    color: #53dfa9;
+    text-decoration: underline;
+    font-size: 1.2rem;
+    }
+
+nav a{
+    text-transform: uppercase;
+    color:#000000;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.imagenflecha{
+    width: 1rem;
+    height: 1rem;
+}
+
+.referenciapaginas{
+    padding: 1.9rem;
+}
+
+.referenciapaginas li{
+    display:inline-flex;
+}
+.parrafoflecha{
+    display:inline-flex;
+    flex-direction: row;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1rem;
+}
+
+#h1 {
+    font-size: 3.25rem;
+}
+
+.tituloscentralizados {
+    text-align: center; 
+    font-size: 1.87rem;
+    font-weight: bold;
+    padding: 3rem 0 1rem 0;
+}
+
+#introduccion{
+    font-size: 1.87rem;
+    margin: 1.87rem;
+}
+
+
+
+#acerca-de-mi, #h1, #introduccion{
+    text-align: justify;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: 15%;
+    padding: 1.25rem;
+}
+
+#acerca-de-mi {
+    font-size: 1.25rem;
+    margin-right: 1.87rem;
+}
+
+#perfilfoto {
+    margin: 2rem 2rem 2rem 3rem;
+    height: 19rem;
+    width: 19rem; 
+    border-radius: 9.5rem;
+    vertical-align: 20%;
+    position: relative;
+}
+
+.sectionskills, .sectionhobbies{
+    display: block;
+    width: 100%;
+    margin-top: 1.25rem;
+    font-size: 1.87rem;
+    font-weight: bold;
+}
+.cuadroskills, .cuadrohobbies {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin: 1rem;
+    justify-content: center
+}
+.containerskills, .containerhobbies {
+    display:flex;
+    flex-direction:column ;
+    align-content: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    border: 0.3rem solid #000000;
+    margin: 1rem;
+    background-color: rgb(117, 211, 181);
+}
+
+.skillsimagen, .hobbiesimagen {
+    height: 2.5rem;
+    width: 2.5rem;
+    left: 1rem;
+    top: 5.9rem;
+    border-radius: nullpx;
+}
+
+.skillsparrafo, .hobbiesparrafo {
+    height: 1.18rem;
+    width: 9rem;
+    left: 1rem;
+    top: 8.68rem;
+    border-radius: nullpx;
+    font-size: 1rem;
+    font-weight: bold;
+}
+ 
+.ulacademica, .trabajospsicologa{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.listaacademica, .trabajospsicologa li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+    align-items: center;
+}
+
+.imgacademica, .trabajospsicologa li img {
+    display: flex;
+    width: 5rem;
+    height: 5rem;
+}
+
+.trabajosprogramacion{
+    padding-left: 2rem;
+}
+
+.trabajosprogramacion li{
+    display: flex;
+    align-items: center;
+    padding: 0rem;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: static;
+    width: 71rem;
+    height: 25.4rem;
+    left: 0rem;
+    top: 0rem;
+    border: 2rem 0
+}
+
+.trabajosprogramacion #primero{
+    flex-direction: row-reverse;
+}
+
+.trabajosprogramacion #segundo{
+    flex-direction: row;
+}
+
+.experienciaprogramacion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem;
+    position: static;
+    width: 71rem;
+    height: 113.5rem;
+    left: 0rem;
+    top: 4.37rem;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 2rem 0rem;
+}
+
+.experienciaprogramacion li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0rem;
+    position: static;
+    width: 71rem;
+    height: 25.4rem;
+    left:0rem;
+    top: 0rem;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 4rem 0rem;
+}
+
+#trabajosprogramaciontexto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0rem;
+    position: static;
+    width: 23rem;
+    height: 7rem;
+    left: 48rem;
+    top: 9.2rem;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+    margin: 0rem 1rem;
+}
+
+#imgencriptador{
+    height: 24rem;
+    width: 47rem;
+    left: 0rem;
+    top: 0rem;
+    border-radius: 0rem;
+
+}
+
+#imgahorcado{
+    height: 24rem;
+    width: 47rem;
+    left: 0rem;
+    top: 0rem;
+    border-radius: 0rem;
+}
+
+.panel-izquierdo, .panel-derecho{
+    box-sizing: border-box;
+   line-height: 1;
+}
+
+
+section.formcontacto{
+    display: flex;
+    background: #e0dfdf;
+    justify-content: center;
+}
+
+.imagencontacto{
+    display: block;
+    margin-left: 6rem;
+    margin-top: 1.25rem;
+    width: 31.25rem;
+    height: 31.25rem;
+}
+
+form, h8, h9, h10{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#contacto{
+    display: block;
+    padding: 0 auto;
+    margin-left: 6rem;
+    margin-top: 1.25rem;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+form label, h8, h9, h10{
+    display: block;
+    
+    padding: 0 auto;
+    margin-left: 6rem;
+    margin-top: 1.25rem;
+}
+
+form input{
+    display: block;
+    
+    padding: 0  2.5rem;
+    margin-left: 6rem;
+    margin-bottom: 0.63rem;
+}
+
+#mensaje {
+    padding: 0 3.5rem;
+    display: block;
+    
+    margin-left: 6rem;
+    margin-bottom: 0.62rem;
+}
+
+.enviar, .repositorio {
+    padding: 0 3.5rem;
+    margin: 0 0 0.62rem 10rem;
+    border-radius: 0.62rem;
+    border: 0.125em solid #53dfa9;
+}  
+
+
+
+footer {
+    width: 90rem;
+    left: -7.68rem;
+    padding-block: 1rem;
+    text-align: center;
+    background-color: #CCCCCC;
+    text-transform: uppercase;
+    font-size: 0.62rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    .home{
+        width: 100%; 
+        top:0px;
+        font-size: 8px; 
+    }
+
+    html{
+        font-size: 8px;
+    }
+    
+    .ulacademica, .trabajospsicologa, .cuadrohobbies, .cuadroskills, .formcontacto {
+        flex-wrap: wrap;
+    }
+    .trabajosprogramacion li{
+        width: 10rem;
+        height: 10rem;
+        font-size: 1.7em;
+    }
+    #imgencriptador, #imgahorcado{
+        width: 15rem;
+        height: 10rem;
+    }
+    .trabajosprogramacion #primero{
+        flex-direction: row;
+    }
+    .imagencontacto{
+        width: 10rem;
+        height: 10rem;
+    }
+
+    footer{
+        width: 100%;
+    }
+
+    nav{
+        top: 0.125rem;
+    }
+}
+
